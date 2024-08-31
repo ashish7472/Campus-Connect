@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Connect - README</title>
-</head>
-
-<body>
-
 <h1>Campus Connect</h1>
 
 <p><strong>Campus Connect</strong> is a platform designed for college students to connect with their peers and seniors who share similar interests. This website aims to foster a community where students can easily find and interact with others based on shared academic, extracurricular, and professional interests.</p>
@@ -53,7 +41,3 @@
 <h2>Contact</h2>
 
 <p>If you have any questions or suggestions, feel free to reach out to us at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
-
-</body>
-
-</html>
