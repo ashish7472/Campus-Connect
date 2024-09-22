@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Connect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Campus Connect</div>
+        <ul class="nav-links">
+            <li><a href="#connections">Connections</a></li>
+            <li><a href="#chat">Chat</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="main-layout">
+        <!-- Connections Section -->
+        <section class="connections" id="connections">
+            <h2>Your Connections</h2>
+            <div class="connection-cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="User 1">
+                    <h3>John Doe</h3>
+                    <p>Senior, Computer Science</p>
+                    <button class="connect-btn">Message</button>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="User 2">
+                    <h3>Jane Smith</h3>
+                    <p>Junior, Electrical Engineering</p>
+                    <button class="connect-btn">Message</button>
+                </div>
+                <!-- More cards -->
+            </div>
+        </section>
+
+        <!-- Chat Section -->
+        <section class="chat-section" id="chat">
+            <h2>Chat</h2>
+            <div class="chat-box">
+                <div class="chat-messages" id="messages">
+                    <div class="message">John: Hi there!</div>
+                    <div class="message">You: Hello John!</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chat-input" placeholder="Type a message...">
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="events" id="events">
+            <h2>Upcoming Events</h2>
+            <div class="event-list">
+                <div class="event-item">
+                    <h3>Hackathon 2024</h3>
+                    <p>Date: 15th October 2024</p>
+                    <p>Location: Campus Auditorium</p>
+                </div>
+                <div class="event-item">
+                    <h3>Guest Lecture: AI in Industry</h3>
+                    <p>Date: 25th October 2024</p>
+                    <p>Location: Lecture Hall 3</p>
+                </div>
+                <!-- More events -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
